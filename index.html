@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!------------------------------------------------------CSS----------------------------------------------------------->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--------------------------------------------------FONTS--------------------------------------------------------------->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@900&family=Ubuntu:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--------------------------------------------------META--------------------------------------------------------------->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!--------------------------------------------------TITLE--------------------------------------------------------------->
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!--------------------------------------------------FONTS--------------------------------------------------------------->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <!-----------------------------------------------------BODY------------------------------------------------------------------------------------->
+  <body>
+    <div>
+      <img class="image-top" src="images\bg-pattern-top.svg" alt="" />
+      <img class="image-bottom" src="images\bg-pattern-bottom.svg" alt="" />
+    </div>
+
+    <!-----------------------------------------------------CARD------------------------------------------------------------------------------------->
+    <div class="card-container">
+      <div class="upper-container">
+        <img src="images\bg-pattern-card.svg" alt="" />
+        <div class="image-container">
+          <img src="images\image-victor.jpg" />
+        </div>
+      </div>
+      <div class="lower-container">
+        <div>
+          <h3>Victor Crest <span class="age"> 26</span></h3>
+          <h4>London</h4>
+        </div>
+        <hr />
+        <ul>
+          <li>
+            <span><h3 style="margin-bottom: 13px">80K</h3></span>Followers
+          </li>
+          <li>
+            <span><h3 style="margin-bottom: 13px">803K</h3></span>Likes
+          </li>
+          <li>
+            <span><h3 style="margin-bottom: 13px">1.4K</h3></span>Photos
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-----------------------------------------------------ATTRIBUITION------------------------------------------------------------------------------------->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/saulotp">Saulo Toledo (me3p0)</a>.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+body {
+  background-color: #19a1ad;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+h4 {
+  color: #bbbbbb;
+  font-size: 15pt;
+  font-family: "Noto Sans", sans-serif;
+}
+
+hr {
+  border-top: #bbbbbb;
+}
+
+/*----------------background circle images--------------*/
+
+.image-top {
+  width: 800px;
+  height: auto;
+  position: absolute;
+  top: -286px;
+  left: -381px;
+}
+
+.image-bottom {
+  width: 800px;
+  height: auto;
+  position: absolute;
+  bottom: -267pt;
+  right: -266pt;
+}
+
+/*----------------card------------------------*/
+
+.card-container {
+  width: 350px;
+  height: 400px;
+  background: #fff;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  overflow: hidden;
+  display: inline-block;
+}
+.upper-container {
+  height: 152px;
+}
+.image-container {
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(122px, -60px);
+}
+.image-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.age {
+  color: #d3d3d3;
+  padding-left: 5px;
+  font-size: 16pt;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.lower-container {
+  height: 280px;
+  background: #fff;
+
+  padding-top: 40px;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.lower-container h3,
+h4 {
+  box-sizing: border-box;
+  line-height: 0.6;
+  font-weight: lighter;
+}
+
+ul {
+  list-style: none;
+  font-size: 15px;
+  padding-right: 7px;
+  padding-left: 0px;
+  margin-top: 15px;
+}
+li span {
+  font-size: 18px;
+  display: block;
+  font-family: "Noto Sans", sans-serif;
+}
+li {
+  margin: 0 20px;
+  color: #bbbbbb;
+  text-align: center;
+  display: inline-block;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/*----------------Attribuition------------------------*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
